@@ -1,0 +1,119 @@
+/* styles.css */
+/*
+id =
+main-header
+navbar
+showcase
+main
+footer
+.
+class =
+container
+*/
+
+h1 {
+    margin-top: 0;
+}
+
+body{
+    background-color:#8f3734;
+    color:#ecd0a6;
+font-family:Arial, Helvetica, sans-serif;
+font: size 16px;
+line: height 1.6em;
+margin:0;
+}
+
+
+.container{
+    wide:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color:#8f3734;
+    color:#ecd0a6;
+    text-align:left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 0.5rem;
+}
+
+#navbar{
+
+    background-color:#ecd0a6;
+    color: #8f3734;
+    margin-top: -20px;
+    margin-bottom:-18px;
+
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+    margin-top: 0px;
+
+}
+
+#navbar li{
+    display:inline-block;
+    margin-top:0;
+}
+
+#navbar a {
+    outline: none;
+    text-decoration: none;
+    margin-top: 0;
+    text-transform: uppercase;
+    
+  }
+
+  
+  a:link {
+    color: #8f3734;
+  }
+  
+  a:visited {
+    color: #8f3734;
+
+  }
+  
+  a:hover {
+    background: #e0c08e;
+
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+
+  }
+
+#showcase{
+    background-image:url('../images/largehamb.jpg');
+    background-position:center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    min-height:400px;
+    text-align: center;
+
+    color:white;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+        text-align: center;
+    box-sizing: border-box   
+}
+
+#footer{
+    position:absolute;
+    bottom:0;
+    background-color:darkmagenta
+    color:rgb(25, 102, 102);
+    padding:20px;
+    
+}
