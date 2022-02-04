@@ -1,6 +1,6 @@
 # odin-recipes
 
-Recipe project for The Odin Project featuring awful recipes.
+Recipe project for The Odin Project using only basic html and CSS
 
 https://rmantoine.github.io/odin-recipes/
 
